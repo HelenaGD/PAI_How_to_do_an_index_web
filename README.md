@@ -83,4 +83,4 @@ Para volver a la página de inicio, se podría modificar cada uno de los archivo
 # Referencias
 - [Referencia a la práctica 1](https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P01-EnvironmentWebServerJutge)
 - [Información sobre ESM y CJS](https://lenguajejs.com/automatizadores/introduccion/commonjs-vs-es-modules/)
-- [Información sobre "required is notdefined error"](https://stackoverflow.com/questions/59443525 require-not-working-in-module-type-nodejs-script)
+- [Información sobre: required is notdefined error](https://stackoverflow.com/questions/59443525/require-not-working-in-module-type-nodejs-script)
