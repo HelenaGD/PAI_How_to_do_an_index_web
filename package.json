@@ -1,0 +1,42 @@
+{
+  "type": "module",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@exercism/babel-preset-javascript": "^0.1.2",
+    "@exercism/eslint-config-javascript": "^0.6.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.25",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^8.11.0",
+    "eslint-config-google": "^0.14.0",
+    "jest": "^27.5.1"
+  },
+  "scripts": {
+    "start": "node web-server/app.js",
+    "test": "jest --verbose",
+    "test-triangle": "jest ./triangle-P29973.test.js",
+    "test-add-one-second": "jest ./add-one-second_P34279.test.js",
+    "test-intervals": "jest ./intervals-P51126.test.js",
+    "test-sum-of-digits": "jest ./sum-of-digits-P33839.test.js",
+    "test-the-sequence": "jest ./the_sequence_of_collatz.test.js",
+    "test-approximation": "jest ./approximation_of_e-P11916.test.js",
+    "test-reverse-of-sequences": "jest ./reverse_of_sequences-P67268.test.js",
+    "test-palindrome": "jest ./is_it_palindrome-P50497.test.js",
+    "test-sum-of-fractions": "jest ./sum_of_fractions-P76024.test.js",
+    "test-statistical-measures": "jest ./statistical-measures-P17179.test.js",
+    "test-valid-dates": "jest ./valid_dates.test.js",
+    "test-maximum-sums": "jest ./maximum_sums.test.js"
+  },
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "typeAcquisition": {
+    "include": [
+      "jest"
+    ]
+  }
+}
